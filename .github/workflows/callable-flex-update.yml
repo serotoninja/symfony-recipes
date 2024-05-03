@@ -40,6 +40,8 @@ jobs:
 
             -
                 name: Update Flex endpoint
+                env:
+                    PAT: ${{ secrets.PAT }}
                 run: |
                     mkdir .github/flex-endpoint
                     git ls-tree HEAD */*/* | php .github/recipes-checker-main/run generate:flex-endpoint ${{ github.repository }} ${{ inputs.branch }} flex/main .github/flex-endpoint ${{ inputs.versions_json }} ${{ inputs.contrib && '--contrib' || '' }}
