@@ -8,7 +8,7 @@
     "is_contrib": true,
     "_links": {
         "repository": "github.com/serotoninja/symfony-recipes",
-        "origin_template": "{package}:{version}@github.com/serotoninja/symfony-recipes:flex/main",
-        "recipe_template": "https://api.github.com/repos/serotoninja/symfony-recipes/contents/{package_dotted}.{version}.json"
+        "origin_template": "{package}:{version}@github.com/serotoninja/symfony-recipes:main",
+        "recipe_template": "https://api.github.com/repos/serotoninja/symfony-recipes/contents/{package_dotted}.{version}.json?ref=flex/main"
     }
 }
