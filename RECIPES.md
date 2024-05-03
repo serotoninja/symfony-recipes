@@ -4,4 +4,4 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 
 | Package | Latest Recipe |
 | --- | --- |
-| [serotoninja/bootstrap-theme-switcher](https://packagist.org/packages/serotoninja/bootstrap-theme-switcher) | [0.5](serotoninja/bootstrap-theme-switcher/0.5) |
+| [serotoninja/bootstrap-theme-switcher](https://packagist.org/packages/serotoninja/bootstrap-theme-switcher) | [1.0](serotoninja/bootstrap-theme-switcher/1.0) |
