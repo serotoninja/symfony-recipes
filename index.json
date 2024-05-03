@@ -1,9 +1,13 @@
 {
-    "aliases": {
-
-    },
+    "aliases": [],
     "recipes": {
-
+        "serotoninja/bootstrap-theme-switcher": [
+            "0.4"
+        ]
+    },
+    "recipe-conflicts": [],
+    "versions": {
+        "splits": []
     },
     "branch": "main",
     "is_contrib": false,
