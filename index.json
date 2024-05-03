@@ -2,8 +2,7 @@
     "aliases": [],
     "recipes": {
         "serotoninja/bootstrap-theme-switcher": [
-            "0.4",
-            "1.0"
+            "0.4"
         ]
     },
     "recipe-conflicts": [],
