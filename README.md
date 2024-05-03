@@ -15,11 +15,25 @@ Welcome to my own Symfony Flex recipe repository!
 ---
 
 ## Getting Started
-This repository contains custom Symfony Flex recipes tailored for my Symfony bundles and packages. To use recipes from 
-this repository in your Symfony project, follow these steps:
+This repository contains custom Symfony Flex recipes tailored for my Symfony bundles and packages. To enable recipes defined in this repository for your project, add this endpoint in your project's `composer.json`:
+```json
+    ...
+    "extra": {
+        "symfony": {
+            "endpoint": [
+                "https://api.github.com/repos/serotoninja/symfony-recipes/contents/index.json",
+                "flex://defaults"
+            ]
+        }
+    },
+    ...
+```
+
 ```
 @TODO
 ```
+
+See [RECIPES.md](https://github.com/serotoninja/symfony-recipes/blob/flex/main/RECIPES.md) for a full list of recipes that live in this repository.
 
 ## Contributing
 Contributions to this repository are restricted to authorized team members. If you have a recipe to contribute, 

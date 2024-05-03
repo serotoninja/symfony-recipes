@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "serotoninja/bootstrap-theme-switcher": [
+            "1.0"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/serotoninja/flex-recipes",
+        "origin_template": "{package}:{version}@github.com/serotoninja/flex-recipes:main",
+        "recipe_template": "https://api.github.com/repos/serotoninja/flex-recipes/contents/{package_dotted}.{version}.json"
+    }
+}
