@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "serotoninja/bootstrap-theme-switcher": {
+            "manifest": {
+                "bundles": {
+                    "Serotoninja\\BootstrapThemeSwitcher\\BootstrapThemeSwitcherBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "assets/": "assets/vendor/serotoninja/bootstrap-theme-switcher/",
+                    "config/routing.yaml": "config/routes/bootstrap_theme_switcher.yaml"
+                },
+                "add-lines": [
+                    {
+                        "file": "assets/app.js",
+                        "content": "import './vendor/serotoninja/bootstrap-theme-switcher/dist/theme-switch.min.js';",
+                        "position": "bottom",
+                        "warn_if_missing": true
+                    }
+                ]
+            },
+            "files": [],
+            "ref": "30f2932e326bd3a16f26a3ef30d41d5fe9befdb9"
+        }
+    }
+}
