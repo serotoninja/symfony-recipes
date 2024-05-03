@@ -1,27 +1,22 @@
 {
-    "manifests": {
-        "serotoninja/bootstrap-theme-switcher": {
-            "manifest": {
-                "bundles": {
-                    "Serotoninja\\BootstrapThemeSwitcher\\BootstrapThemeSwitcherBundle": [
-                        "all"
-                    ]
-                },
-                "copy-from-recipe": {
-                    "assets/": "assets/vendor/serotoninja/bootstrap-theme-switcher/",
-                    "config/routing.yaml": "config/routes/bootstrap_theme_switcher.yaml"
-                },
-                "add-lines": [
-                    {
-                        "file": "assets/app.js",
-                        "content": "import './vendor/serotoninja/bootstrap-theme-switcher/dist/theme-switch.min.js';",
-                        "position": "bottom",
-                        "warn_if_missing": true
-                    }
-                ]
-            },
-            "ref": "ca63b14bad935a046116033965dfc26d1a673481"
-        }
-    }
-
+    "manifest": {
+        "bundles": {
+            "Serotoninja\\BootstrapThemeSwitcher\\BootstrapThemeSwitcherBundle": [
+                "all"
+            ]
+        },
+        "copy-from-recipe": {
+            "assets/": "assets/vendor/serotoninja/bootstrap-theme-switcher/",
+            "config/routing.yaml": "config/routes/bootstrap_theme_switcher.yaml"
+        },
+        "add-lines": [
+            {
+                "file": "assets/app.js",
+                "content": "import './vendor/serotoninja/bootstrap-theme-switcher/dist/theme-switch.min.js';",
+                "position": "bottom",
+                "warn_if_missing": true
+            }
+        ]
+    },
+    "ref": "ca63b14bad935a046116033965dfc26d1a673481"
 }
