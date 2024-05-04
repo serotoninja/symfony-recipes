@@ -1,7 +1,6 @@
-
-  * <fg=blue>Follow</> these steps to use the BootstrapThemeSwitcher component:
+  * <fg=blue>Follow these steps</> to use the <fg=green>Bootstrap Theme Switcher:</>
     1. Prepare the base template <comment>templates/base.html.twig</>.
-    2. Include the partial template <comment>anywhere</>.
+    2. Include one of the partial templates <comment>anywhere</>.
     3. Build or serve the <comment>assets</>.
 
   * <fg=blue>Read</> the documentation at <comment>https://github.com/serotoninja/bootstrap-theme-switcher/blob/master/README.md</>
