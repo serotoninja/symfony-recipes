@@ -1,7 +1,7 @@
 <div align="center">
 
 # Symfony Recipes
-Welcome to my own Symfony Flex recipe repository!
+Welcome to my tiny, shiny Symfony Flex recipe repository!
 
 [![symfony](https://img.shields.io/badge/symfony-recipes-374151.svg?style=flat-square)](https://github.com/symfony/recipes)
 [![symfony](https://img.shields.io/badge/symfony-recipes--contrib-374151.svg?style=flat-square)](https://github.com/symfony/recipes-contrib)
@@ -51,14 +51,3 @@ inquiries or collaboration opportunities.
 
 ## Acknowledgements
 I would like to thank the Symfony community for their valuable contributions to the ecosystem.
-
----
-
-<div align="center">
-
-#### Endorsed by nobody, powered by
-[![GitHub](https://img.shields.io/badge/Repository-GitHub-092c62.svg?style=flat-square)](https://github.com)
-[![macOS](https://img.shields.io/badge/OS-macOS-015E25.svg?style=flat-square)](https://www.apple.com/de/macos)
-[![PHPStorm](https://img.shields.io/badge/IDE-PHPStorm-79289b.svg?style=flat-square)](https://www.jetbrains.com/phpstorm)
-[![ChatGPT](https://img.shields.io/badge/AI-ChatGPT-70A597.svg?style=flat-square)](https://chat.openai.com)
-</div>
