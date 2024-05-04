@@ -30,9 +30,6 @@ To enable recipes defined in this repository for your project, add this endpoint
     }
 }
 ```
-> [!TIP]
-> The `extra.symfony` key will most probably already exist in your `composer.json`. In that case, add the `endpoint` 
-> key to the existing `extra.symfony` entry.
 
 > [!WARNING]
 > Without this option Composer will not use the Symfony Flex recipes for my bundles, unless the recipes were contributed to
