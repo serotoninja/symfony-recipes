@@ -36,8 +36,9 @@ To enable recipes defined in this repository for your project, add this endpoint
 See [RECIPES.md](https://github.com/serotoninja/symfony-recipes/blob/flex/main/RECIPES.md) for a full list of recipes that live in this repository.
 
 > [!WARNING]
-> Without this option Composer will not use the Symfony Flex recipe for my bundles, unless the recipes were contributed to [symfony/recipes-contrib](https://github.com/symfony/recipes-contrib) and you will need to follow
-> manual installation instructions, if provided. 
+> Without this option Composer will not use the Symfony Flex recipes for my bundles, unless the recipes were contributed to
+> [symfony/recipes-contrib](https://github.com/symfony/recipes-contrib). Then you will need to follow manual installation
+> instructions, if provided. 
 
 ## Contributing
 Contributions to this repository are restricted to authorized team members. If you have a recipe to contribute, 
