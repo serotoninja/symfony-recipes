@@ -3,11 +3,11 @@
 # Symfony Recipes
 Welcome to my tiny, shiny Symfony Flex recipe repository!
 
-[![symfony](https://img.shields.io/badge/symfony-recipes-374151.svg?style=flat-square)](https://github.com/symfony/recipes)
-[![symfony](https://img.shields.io/badge/symfony-recipes--contrib-374151.svg?style=flat-square)](https://github.com/symfony/recipes-contrib)
+[![symfony/recipes](https://img.shields.io/badge/symfony-recipes-374151.svg?style=flat-square)](https://github.com/symfony/recipes)
+[![symfony/recipes-contrib](https://img.shields.io/badge/symfony-recipes--contrib-374151.svg?style=flat-square)](https://github.com/symfony/recipes-contrib)
 
 [![php](https://img.shields.io/badge/PHP->=8.0-4F5B93.svg?style=flat-square)](https://www.php.net)
-[![php](https://img.shields.io/badge/composer-^2.1-D48822.svg?style=flat-square)](https://getcomposer.org)
+[![composer](https://img.shields.io/badge/composer-^2.1-D48822.svg?style=flat-square)](https://getcomposer.org)
 [![symfony](https://img.shields.io/badge/symfony/flex-^2-374151.svg?style=flat-square)](https://github.com/symfony/flex)
 
 </div>
@@ -15,7 +15,8 @@ Welcome to my tiny, shiny Symfony Flex recipe repository!
 ---
 
 ## Getting Started
-This repository contains custom Symfony Flex recipes tailored for my Symfony bundles and packages. To enable recipes defined in this repository for your project, add this endpoint in your project's `composer.json`:
+This repository contains custom Symfony Flex recipes tailored for my Symfony bundles and packages. 
+To enable recipes defined in this repository for your project, add this endpoint in your project's `composer.json`:
 ```json
 {
     "extra": {
@@ -32,11 +33,11 @@ This repository contains custom Symfony Flex recipes tailored for my Symfony bun
 > The `extra.symfony` key will most probably already exist in your `composer.json`. In that case, add the `endpoint` 
 > key to the existing `extra.symfony` entry.
 
-```
-@TODO
-```
-
 See [RECIPES.md](https://github.com/serotoninja/symfony-recipes/blob/flex/main/RECIPES.md) for a full list of recipes that live in this repository.
+
+> [!WARNING]
+> Without this option Composer will not use the Symfony Flex recipe for my bundles, unless the recipes were contributed to [symfony/recipes-contrib](https://github.com/symfony/recipes-contrib) and you will need to follow
+> manual installation instructions, if provided. 
 
 ## Contributing
 Contributions to this repository are restricted to authorized team members. If you have a recipe to contribute, 
