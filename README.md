@@ -36,7 +36,7 @@ To enable recipes defined in this repository for your project, add this endpoint
 > [symfony/recipes-contrib](https://github.com/symfony/recipes-contrib). Then you will need to follow manual installation
 > instructions, if provided. 
 
-> [!TIP]  
+> [!NOTE]  
 > See [RECIPES.md](https://github.com/serotoninja/symfony-recipes/blob/flex/main/RECIPES.md) for a full list of recipes that live in this repository.
 
 ## Contributing
