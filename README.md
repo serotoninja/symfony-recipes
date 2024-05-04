@@ -16,7 +16,8 @@ Welcome to my tiny, shiny Symfony Flex recipe repository!
 
 ## Getting Started
 This repository contains custom Symfony Flex recipes tailored for my Symfony bundles and packages. 
-To enable recipes defined in this repository for your project, add this endpoint in your project's `composer.json`:
+To enable recipes defined in this repository for your project, add this endpoint in your project's `composer.json` as described in the 
+[Symfony documentation](https://symfony.com/doc/current/setup/flex_private_recipes.html#configure-your-project-s-composer-json-file):
 ```json
 {
     "extra": {
