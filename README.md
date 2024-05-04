@@ -40,18 +40,16 @@ To enable recipes defined in this repository for your project, add this endpoint
 > See [RECIPES.md](https://github.com/serotoninja/symfony-recipes/blob/flex/main/RECIPES.md) for a full list of recipes that live in this repository.
 
 ## Contributing
-Contributions to this repository are restricted to authorized team members. If you have a recipe to contribute, 
-please contact the repository owner for access.
+Only authorized team members can contribute to this repository. 
 
 ## Support
-If you encounter any issues or have questions about using our recipes, please contact our support team.
+If you run into any problems or have questions about the recipes, feel free to reach out. However, please note that I won't be available to assist personally.
 
 ## License
-This repository is private and for internal use only. Unauthorized distribution or use of its contents is prohibited.
+This repository is highly experimental and should only used unless the recipes are not available in the official recipes-contrib repository. 
 
 ## About me
-I am a developer dedicated to creating high-quality Symfony applications. Feel free to reach out to us with any 
-inquiries or collaboration opportunities.
+I'm a developer passionate about creating top-notch Symfony applications. Feel free to reach out to me with any questions or collaboration opportunities!
 
 ## Acknowledgements
 I would like to thank the Symfony community for their valuable contributions to the ecosystem.
