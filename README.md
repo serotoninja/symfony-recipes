@@ -37,7 +37,7 @@ To enable recipes defined in this repository for your project, add this endpoint
 > instructions, if provided. 
 
 > [!NOTE]  
-> See [RECIPES.md](https://github.com/serotoninja/symfony-recipes/blob/flex/main/RECIPES.md) for a full list of recipes that live in this repository.
+> See [RECIPES.md](https://github.com/neuralglitch/symfony-recipes/blob/flex/main/RECIPES.md) for a full list of recipes that live in this repository.
 
 ## Contributing
 Only authorized team members can contribute to this repository. 
