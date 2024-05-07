@@ -23,7 +23,7 @@ To enable recipes defined in this repository for your project, add this endpoint
     "extra": {
         "symfony": {
             "endpoint": [
-                "https://api.github.com/repos/serotoninja/symfony-recipes/contents/index.json",
+                "https://api.github.com/repos/neuralglitch/symfony-recipes/contents/index.json",
                 "flex://defaults"
             ]
         }
@@ -53,3 +53,7 @@ I'm a developer passionate about creating top-notch Symfony applications. Feel f
 
 ## Acknowledgements
 I would like to thank the Symfony community for their valuable contributions to the ecosystem.
+
+---
+
+Copyright (c) 2024 [Neural Glitch](https://neuralglit.ch)
