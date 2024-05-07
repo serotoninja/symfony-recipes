@@ -11,6 +11,6 @@ defaults:
 
 jobs:
     call-flex-update:
-        uses: serotoninja/symfony-recipes/.github/workflows/callable-flex-update.yml@main
+        uses: neuralglitch/symfony-recipes/.github/workflows/callable-flex-update.yml@main
         with:
             versions_json: .github/versions.json
