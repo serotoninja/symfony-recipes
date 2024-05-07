@@ -1,35 +1,35 @@
 {
     "manifests": {
-        "serotoninja/bootstrap-theme-switcher": {
+        "neuralglitch/bootstrap-theme-switch": {
             "manifest": {
                 "bundles": {
-                    "Serotoninja\\BootstrapThemeSwitcher\\BootstrapThemeSwitcherBundle": [
+                    "NeuralGlitch\\BootstrapThemeSwitch\\BootstrapThemeSwitchBundle": [
                         "all"
                     ]
                 },
                 "copy-from-package": {
-                    "assets/": "assets/vendor/serotoninja/bootstrap-theme-switcher/",
-                    "config/routing.yaml": "config/routes/bootstrap_theme_switcher.yaml"
+                    "assets/": "assets/vendor/neuralglitch/bootstrap-theme-switch/",
+                    "config/routes.yaml": "config/routes/bootstrap_theme_switch.yaml"
                 },
                 "add-lines": [
                     {
                         "file": "assets/app.js",
-                        "content": "import './vendor/serotoninja/bootstrap-theme-switcher/dist/theme-switch.min.js';",
+                        "content": "import './vendor/neuralglitch/bootstrap-theme-switch/dist/bootstrap-theme-switch.min.js';",
                         "position": "bottom",
                         "warn_if_missing": true
                     }
                 ],
                 "post-install-output": [
-                    "  * <fg=blue>Follow these steps</> to use the <fg=green>Bootstrap Theme Switcher:</>",
+                    "  * <fg=blue>Follow these steps</> to use the <fg=green>Bootstrap Theme Switch:</>",
                     "    1. Prepare the base template <comment>templates/base.html.twig</>.",
                     "    2. Include one of the partial templates <comment>anywhere</>.",
                     "    3. Build or serve the <comment>assets</>.",
                     "",
-                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/serotoninja/bootstrap-theme-switcher/blob/master/README.md</>"
+                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/neuralglitch/bootstrap-theme-switch/blob/master/README.md</>"
                 ]
             },
             "files": [],
-            "ref": "c1c53cf7a6497257bc5e847332a2d929666cdde9"
+            "ref": "f3db9426746a6fb12dbbcd48951224b7c3c581ef"
         }
     }
 }
