@@ -1,7 +1,7 @@
 <div align="center">
 
 # Symfony Recipes
-Welcome to my tiny, shiny Symfony Flex recipe repository!
+Symfony Flex recipe repository of **neuralglit.ch**
 
 [![symfony/recipes](https://img.shields.io/badge/symfony-recipes-374151.svg?style=flat-square)](https://github.com/symfony/recipes)
 [![symfony/recipes-contrib](https://img.shields.io/badge/symfony-recipes--contrib-374151.svg?style=flat-square)](https://github.com/symfony/recipes-contrib)
@@ -56,4 +56,4 @@ I would like to thank the Symfony community for their valuable contributions to 
 
 ---
 
-Copyright (c) 2024 [Neural Glitch](https://neuralglit.ch)
+Copyright (c) 2024 [neuralglit.ch](https://neuralglit.ch)
