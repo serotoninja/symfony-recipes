@@ -2,6 +2,7 @@
     "aliases": [],
     "recipes": {
         "neuralglitch/bootstrap-theme-switch": [
+            "0.1",
             "1.0"
         ]
     },
