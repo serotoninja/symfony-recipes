@@ -4,4 +4,5 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 
 | Package | Latest Recipe |
 | --- | --- |
-| [neuralglitch/bootstrap-theme-switch](https://packagist.org/packages/neuralglitch/bootstrap-theme-switch) | [1.0](neuralglitch/bootstrap-theme-switch/1.0) |
+| [neuralglitch/bootstrap-theme-switch](https://packagist.org/packages/neuralglitch/bootstrap-theme-switch) | [0.1](neuralglitch/bootstrap-theme-switch/0.1) |
+| [neuralglitch/make-bundle](https://packagist.org/packages/neuralglitch/make-bundle) | [0.1](neuralglitch/make-bundle/0.1) |
